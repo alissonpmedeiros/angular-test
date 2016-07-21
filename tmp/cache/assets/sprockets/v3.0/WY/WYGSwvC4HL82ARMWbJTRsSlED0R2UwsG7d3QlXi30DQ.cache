@@ -1,0 +1,9 @@
+{:uriI"†file://app/assets/javascripts/templates/new.html?type=text/ng-html&id=f945adfb19f5c98ddbe31dc889b095be0c5cf415d69770abfee6cefeec517bde:ET:load_pathI"app/assets/javascripts;T:filenameI".app/assets/javascripts/templates/new.html;T:	nameI"templates/new;T:logical_pathI"templates/new.html;T:content_typeI"text/ng-html;T:sourceI"Ù<h1 class="h2">New Discipline</h1>
+<form class="form-horizontal" role="form" id="formNew" name="DisciplineForm" novalidate ng-submit="saveDiscipline()">
+    <div ng-include src="'/templates/form.html'"></div>
+</form>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"<file-digest://app/assets/javascripts/templates/new.html;TT:charsetI"
+utf-8;F:digest"%Gl“¸&ßyòæféiSˆØü(«Í@ic” e`‚í:lengthiÙ:dependencies_digest"%•Ó:i+ÜKŸÅF*Þi{:ß^N¯…¡J^žIB:idI"Ef945adfb19f5c98ddbe31dc889b095be0c5cf415d69770abfee6cefeec517bde;F:
+mtimel+~íW

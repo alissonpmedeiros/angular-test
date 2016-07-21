@@ -1,0 +1,56 @@
+{:uriI"ˆfile://app/assets/javascripts/templates/index.html?type=text/ng-html&id=75dbfc40825ed2921988d08e6d7a951c0ab0a2506f3fbeec5517b282295401d2:ET:load_pathI"app/assets/javascripts;T:filenameI"0app/assets/javascripts/templates/index.html;T:	nameI"templates/index;T:logical_pathI"templates/index.html;T:content_typeI"text/ng-html;T:sourceI"%<h1 class="h1">Disciplines</h1>
+<br>
+    <h2 class="h2">CRE: {{cre | number:2}} </h2>
+<br>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th class="h3">Matter</th>
+        <th class="h3">Average</th>
+        <th class="h3">Workload</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="discipline in disciplines">
+
+        <td class="h4"><a ng-click="view(discipline.id)" href="">{{discipline.name}}</a></td>
+        <td class="h4">{{discipline.average}}</td>
+        <td class="h4">{{discipline.workload}}</td>
+        <td>
+            <a href="#/disciplines/{{discipline.id}}/edit" class="btn btn-warning btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-edit"></i>
+                Edit Discipline
+            </a>
+        </td>
+        <td>
+            <button ng-click="view(discipline.id)" class="btn btn-info btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-list"></i>
+                Show Discipline
+            </button>
+        </td>
+        <td>
+            <button ng-click="deleteDiscipline(discipline.id)"
+                    class="btn btn-danger btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-trash"></i>
+                Delete Discipline
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!--
+<div ng-controller="DisciplineController" ng-include="'form.html'">
+</div>
+-->
+
+<button ng-click="newDiscipline()" class="btn btn-primary btn-lg">
+    <i aria-hidden="true" class="glyphicon glyphicon-new-window"></i>
+    New Discipline
+</button>
+
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI">file-digest://app/assets/javascripts/templates/index.html;TT:charsetI"
+utf-8;F:digest"%Ü¢÷ÊÅxª¨–’ÇÏ(eÒºiÄ/}|FY\¼½½F6ˆÉ:lengthi%:dependencies_digest"%Ï=N»‹võß*5u>LœZğs˜t‚c½T¥{ãr&B:idI"E75dbfc40825ed2921988d08e6d7a951c0ab0a2506f3fbeec5517b282295401d2;F:
+mtimel+]ÌW

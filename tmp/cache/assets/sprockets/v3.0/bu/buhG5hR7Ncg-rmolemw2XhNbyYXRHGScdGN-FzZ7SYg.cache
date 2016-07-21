@@ -1,0 +1,54 @@
+{:uriI"‡file://app/assets/javascripts/templates/form.html?type=text/ng-html&id=a49dd537f4d90567337d136486f209ba79060e5baf7d9760e279c7b025c82bad:ET:load_pathI"app/assets/javascripts;T:filenameI"/app/assets/javascripts/templates/form.html;T:	nameI"templates/form;T:logical_pathI"templates/form.html;T:content_typeI"text/ng-html;T:sourceI"{{discipline}}
+<br>
+<form class="form-horizontal" role="form" >
+    <div class="form-group">
+        <label
+                for="name"
+                class="col-md-2 control-label col-md-offset-2">
+            Name
+        </label>
+        <div class="col-md-5">
+            <input type="text" name="name" class="form-control" ng-model="discipline.name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label
+                for="average"
+                class="col-md-2 control-label col-md-offset-2">
+            Average
+        </label>
+        <div class="col-md-5">
+            <input type="text" name="average" class="form-control" ng-model='discipline.average'>
+      </textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label
+                for="workload"
+                class="col-md-2 control-label col-md-offset-2">
+            Workload
+        </label>
+        <div class="col-md-5">
+            <input type="text" name="workload" class="form-control" ng-model='discipline.workload'>
+      </textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-4 col-md-3 ">
+            <button class="btn btn-default" ng-click="back()"> Cancel</button>
+        </div>
+        <div class="col-md-2 text-right ">
+            <button class="btn btn-primary" ng-click="saveDiscipline()"> Save </button>
+        </div>
+    </div>
+    </section>
+</form>
+
+
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"=file-digest://app/assets/javascripts/templates/form.html;TT:charsetI"
+utf-8;F:digest"%šœÎŸh'øÅWš·+	§é#\î¾^*wı>•¡9:lengthi:dependencies_digest"%	‚¤Ä3ÍÌÈdÊJîÙ¼hq£õ#‡…¿ÔëêÚ1:idI"Ea49dd537f4d90567337d136486f209ba79060e5baf7d9760e279c7b025c82bad;F:
+mtimel+ÀW

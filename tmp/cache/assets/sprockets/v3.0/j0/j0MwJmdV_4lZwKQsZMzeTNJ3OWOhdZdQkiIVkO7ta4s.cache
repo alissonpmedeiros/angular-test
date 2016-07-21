@@ -1,0 +1,55 @@
+{:uriI"‡file://app/assets/javascripts/templates/form.html?type=text/ng-html&id=117ea6bb838a94b2835cd2b0ae5af832f5338f5789abe80a3c3bc21bef408290:ET:load_pathI"app/assets/javascripts;T:filenameI"/app/assets/javascripts/templates/form.html;T:	nameI"templates/form;T:logical_pathI"templates/form.html;T:content_typeI"text/ng-html;T:sourceI"	{{discipline}}
+<div class="form-group">
+    <label
+            for="name"
+            class="col-md-2 control-label col-md-offset-2">
+        Name
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="name" class="form-control" ng-model="$parent.discipline.name">
+    </div>
+</div>
+<div class="form-group">
+    <label
+            for="average"
+            class="col-md-2 control-label col-md-offset-2">
+        Average
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="average" class="form-control" ng-model='$parent.discipline.average'>
+  </textarea>
+    </div>
+</div>
+
+<div class="form-group">
+    <label
+            for="workload"
+            class="col-md-2 control-label col-md-offset-2">
+        Workload
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="workload" class="form-control" ng-model='$parent.discipline.workload'>
+  </textarea>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-md-offset-4 col-md-3 ">
+        <button class="btn btn-default" ng-click="back()"> Cancel</button>
+    </div>
+    <div class="col-md-2 text-right ">
+        <button type="submit"  ng-click="$parent.submitted=true"
+                class="btn btn-primary" >
+            Save
+        </button>
+    </div>
+</div>
+
+
+
+
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"=file-digest://app/assets/javascripts/templates/form.html;TT:charsetI"
+utf-8;F:digest"%Äj‚ã«kÈußÆúÙİğŒ¬£ô§HE2ØŞuß#ŞL:lengthi	:dependencies_digest"%ùçÆq@æÙ 	Bìc;³Îw2½‚`Ñl&˜[{4,!DÚ:idI"E117ea6bb838a94b2835cd2b0ae5af832f5338f5789abe80a3c3bc21bef408290;F:
+mtimel+²ñW

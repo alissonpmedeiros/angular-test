@@ -1,0 +1,30 @@
+{:uriI"‡file://app/assets/javascripts/templates/show.html?type=text/ng-html&id=470d88be40d3a54a63d4383175f3d5f114027f4434706b4927bfd96148768450:ET:load_pathI"app/assets/javascripts;T:filenameI"/app/assets/javascripts/templates/show.html;T:	nameI"templates/show;T:logical_pathI"templates/show.html;T:content_typeI"text/ng-html;T:sourceI"<br>
+<section class="col-md-6 col-md-offset-3">
+    <article class="panel panel-info">
+        <header class="panel-heading"><h1>{{discipline.name}}</h1></header>
+        <p class="panel-body h4">
+            Average: {{discipline.average}}
+        </p>
+        <p class="panel-body h4">
+            Workload: {{discipline.workload}}
+        </p>
+    </article>
+    <br>
+
+    <button ng-click="edit()" class="btn btn-warning ">
+        <i aria-hidden="true" class="glyphicon glyphicon-edit"></i>
+        Edit Discipline
+    </button>
+    <button ng-click="delete()" class="btn btn-danger ">
+        <i aria-hidden="true" class="glyphicon glyphicon-trash"></i>
+        Delete Discipline
+    </button>
+    <button ng-click="back()" class="btn btn-default">
+        Back
+    </button>
+</section>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"=file-digest://app/assets/javascripts/templates/show.html;TT:charsetI"
+utf-8;F:digest"%fÖ‹/±4žÅÞÀë)^Ós#Áüˆ•® Æî:lengthi:dependencies_digest"%@ÊVCëc„p=ûÅ3ÆÌë36![M}"½!ÓÍ>:idI"E470d88be40d3a54a63d4383175f3d5f114027f4434706b4927bfd96148768450;F:
+mtimel+Gs‹W

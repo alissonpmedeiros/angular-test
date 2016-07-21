@@ -1,0 +1,8 @@
+{:uriI"‡file://app/assets/javascripts/templates/edit.html?type=text/ng-html&id=7170cea64194e257b4eb13509d971ec3c4a44a9969372a92f0e4dbbc57b7942a:ET:load_pathI"app/assets/javascripts;T:filenameI"/app/assets/javascripts/templates/edit.html;T:	nameI"templates/edit;T:logical_pathI"templates/edit.html;T:content_typeI"text/ng-html;T:sourceI"Ä<h1 class="h2">Edit Discipline</h1>
+<form class="form-horizontal" role="form" id="formEdit" name="DisciplineForm" novalidate ng-submit="update()" >
+    <div ng-include="'form.html'"></div>
+</form>;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"=file-digest://app/assets/javascripts/templates/edit.html;TT:charsetI"
+utf-8;F:digest"%?_ªz•äbl§	„Ä^®w´¹šı»¾ÖiÃ]°:lengthiÄ:dependencies_digest"%bƒæ.+£„0›O°¡;¢ÁïçìŠzGßq…;{"e:idI"E7170cea64194e257b4eb13509d971ec3c4a44a9969372a92f0e4dbbc57b7942a;F:
+mtimel+SèW

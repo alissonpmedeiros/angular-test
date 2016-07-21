@@ -1,0 +1,52 @@
+<h1 class="h1">Disciplines</h1>
+<br>
+    <h2 class="h2">CRE: {{cre | number:2}} </h2>
+<br>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th class="h3">Matter</th>
+        <th class="h3">Average</th>
+        <th class="h3">Workload</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="discipline in disciplines">
+
+        <td class="h4"><a ng-click="view(discipline.id)" href="">{{discipline.name}}</a></td>
+        <td class="h4">{{discipline.average}}</td>
+        <td class="h4">{{discipline.workload}}</td>
+        <td>
+            <button ng-click="edit(discipline.id)" class="btn btn-warning btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-edit"></i>
+                Edit Discipline
+            </button>
+
+        </td>
+        <td>
+            <button ng-click="view(discipline.id)" class="btn btn-info btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-list"></i>
+                Show Discipline
+            </button>
+        </td>
+        <td>
+            <button ng-click="deleteDiscipline(discipline.id)"
+                    class="btn btn-danger btn-sm">
+                <i aria-hidden="true" class="glyphicon glyphicon-trash"></i>
+                Delete Discipline
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!--
+<div ng-controller="DisciplineController" ng-include="'form.html'">
+</div>
+-->
+
+<button ng-click="newDiscipline()" class="btn btn-primary btn-lg">
+    <i aria-hidden="true" class="glyphicon glyphicon-new-window"></i>
+    New Discipline
+</button>
+

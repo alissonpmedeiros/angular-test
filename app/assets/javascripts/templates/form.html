@@ -1,0 +1,49 @@
+<div class="form-group">
+    <label
+            for="name"
+            class="col-md-2 control-label col-md-offset-2">
+        Name
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="name" class="form-control" ng-model="$parent.discipline.name">
+    </div>
+</div>
+<div class="form-group">
+    <label
+            for="average"
+            class="col-md-2 control-label col-md-offset-2">
+        Average
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="average" class="form-control" ng-model='$parent.discipline.average'>
+  </textarea>
+    </div>
+</div>
+
+<div class="form-group">
+    <label
+            for="workload"
+            class="col-md-2 control-label col-md-offset-2">
+        Workload
+    </label>
+    <div class="col-md-5">
+        <input type="text" name="workload" class="form-control" ng-model='$parent.discipline.workload'>
+  </textarea>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-md-offset-4 col-md-3 ">
+        <button class="btn btn-default" ng-click="back()"> Cancel</button>
+    </div>
+    <div class="col-md-2 text-right ">
+        <button type="submit"  ng-click="$parent.submitted=true"
+                class="btn btn-primary" >
+            Save
+        </button>
+    </div>
+</div>
+
+
+
+
